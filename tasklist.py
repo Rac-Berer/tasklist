@@ -374,7 +374,7 @@ def filter_tasks(selected_categories, filter_status=None):
 
 # Main Application Loop
 def display_menu():
-    print('To-Do List Menu')
+    print('Task List Menu')
     for key, value in menu.items():
         print(f'{key} -- {value}')
 
